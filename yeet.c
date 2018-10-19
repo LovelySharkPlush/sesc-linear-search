@@ -37,6 +37,6 @@ int main() {
     curr.value=curr.next->value;
     curr.next=curr.next->next;
   }
-  printf("%d\n%d", first, last);
+  printf("%d %d", first, last);
   return 0;
 }
